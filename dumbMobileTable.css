@@ -1,0 +1,29 @@
+
+@media screen and (max-width: 992px) {
+    table#custom_mobile_table {
+        display: table !important;
+        width: 100% !important;
+    }
+    table#custom_mobile_table thead {
+        display: table-header-group !important;
+    }
+    table#custom_mobile_table tbody {
+        display: table-row-group !important;
+    }
+    table#custom_mobile_table tr {
+        display: table-row !important;
+    }
+    table#custom_mobile_table th, 
+    table#custom_mobile_table td {
+        display: table-cell !important;
+    }
+    table#custom_mobile_table td::before {
+        content: none !important;
+        display: none !important;
+    }
+    table#custom_mobile_table td input,
+    table#custom_mobile_table td select,
+    table#custom_mobile_table td textarea {
+        min-width: 150px;
+    }
+}
